@@ -1,4 +1,4 @@
 package com.company.binoxxosolver;
 
-public class Luncher {
+public class Launcher {
 }
