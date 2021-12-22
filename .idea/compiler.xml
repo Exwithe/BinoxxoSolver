@@ -9,8 +9,11 @@
         <module name="BinoxxoSolver" />
       </profile>
     </annotationProcessing>
+<<<<<<< HEAD
     <bytecodeTargetLevel>
       <module name="BinoxxoSolver" target="11" />
     </bytecodeTargetLevel>
+=======
+>>>>>>> origin/master
   </component>
 </project>
