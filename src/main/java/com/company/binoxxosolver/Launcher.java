@@ -1,5 +1,7 @@
 package com.company.binoxxosolver;
 
 public class Launcher {
-    public int remo = 0;
+    public static void main(String[] args) {
+        Application.main(args);
+    }
 }
