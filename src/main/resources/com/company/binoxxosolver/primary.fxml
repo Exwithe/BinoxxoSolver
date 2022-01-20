@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="700.0" prefWidth="600.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.binoxxosolver.Controller">
+   <children>
+      <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+      <VBox prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <GridPane gridLinesVisible="true">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="50.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="50.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="50.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="button00" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next00" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Arial" size="46.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                     </padding>
+                  </Button><Button fx:id="button01" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next01" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button02" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next02" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button03" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next03" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button04" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next04" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="0" GridPane.rowIndex="4">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button05" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next05" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="0" GridPane.rowIndex="5">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button06" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next06" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="0" GridPane.rowIndex="6">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button07" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next07" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="0" GridPane.rowIndex="7">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button08" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next08" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="0" GridPane.rowIndex="8">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button09" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next09" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="0" GridPane.rowIndex="9">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button>
+                  <Button fx:id="button10" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next10" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Arial" size="46.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                     </padding>
+                  </Button><Button fx:id="button11" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next11" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button12" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next12" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button13" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next13" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button14" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next14" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button15" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next15" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button16" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next16" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button17" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next17" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button18" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next18" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button19" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next19" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button>
+                  <Button fx:id="button20" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next20" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Arial" size="46.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                     </padding>
+                  </Button><Button fx:id="button21" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next21" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button22" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next22" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button23" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next23" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button24" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next24" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button25" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next25" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button26" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next26" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button27" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next27" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button28" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next28" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button29" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next29" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button>
+                  <Button fx:id="button30" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next30" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="0">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Arial" size="46.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                     </padding>
+                  </Button><Button fx:id="button31" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next31" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button32" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next32" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button33" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next33" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button34" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next34" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button35" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next35" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button36" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next36" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button37" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next37" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button38" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next38" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button39" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next39" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button>
+                  <Button fx:id="button40" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next40" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="0">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Arial" size="46.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                     </padding>
+                  </Button><Button fx:id="button41" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next41" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button42" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next42" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button43" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next43" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button44" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next44" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button45" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next45" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button46" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next46" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button47" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next47" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button48" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next48" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="8">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button49" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next49" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button>
+                  <Button fx:id="button50" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next50" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="5" GridPane.rowIndex="0">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Arial" size="46.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                     </padding>
+                  </Button><Button fx:id="button51" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next51" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button52" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next52" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button53" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next53" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button54" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next54" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button55" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next55" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button56" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next56" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button57" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next57" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button58" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next58" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="5" GridPane.rowIndex="8">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button59" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next59" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="5" GridPane.rowIndex="9">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button>
+                  <Button fx:id="button60" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next60" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="6" GridPane.rowIndex="0">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Arial" size="46.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                     </padding>
+                  </Button><Button fx:id="button61" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next61" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button62" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next62" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button63" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next63" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button64" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next64" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button65" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next65" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button66" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next66" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button67" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next67" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button68" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next68" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="6" GridPane.rowIndex="8">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button69" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next69" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="6" GridPane.rowIndex="9">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button>
+                  <Button fx:id="button70" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next70" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="7" GridPane.rowIndex="0">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Arial" size="46.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                     </padding>
+                  </Button><Button fx:id="button71" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next71" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button72" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next72" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button73" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next73" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button74" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next74" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button75" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next75" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button76" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next76" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button77" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next77" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button78" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next78" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="7" GridPane.rowIndex="8">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button79" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next79" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button>
+                  <Button fx:id="button80" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next80" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="8" GridPane.rowIndex="0">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Arial" size="46.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                     </padding>
+                  </Button><Button fx:id="button81" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next81" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button82" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next82" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button83" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next83" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="8" GridPane.rowIndex="3">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button84" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next84" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button85" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next85" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button86" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next86" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button87" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next87" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="8" GridPane.rowIndex="7">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button88" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next88" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="8" GridPane.rowIndex="8">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button89" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next89" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="8" GridPane.rowIndex="9">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button>
+                  <Button fx:id="button90" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next90" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="9" GridPane.rowIndex="0">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Arial" size="46.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                     </padding>
+                  </Button><Button fx:id="button91" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next91" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="9" GridPane.rowIndex="1">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button92" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next92" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="9" GridPane.rowIndex="2">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button93" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next93" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="9" GridPane.rowIndex="3">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button94" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next94" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="9" GridPane.rowIndex="4">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button95" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next95" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="9" GridPane.rowIndex="5">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button96" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next96" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="9" GridPane.rowIndex="6">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button97" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next97" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="9" GridPane.rowIndex="7">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button98" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next98" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="9" GridPane.rowIndex="8">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button><Button fx:id="button99" alignment="CENTER" graphicTextGap="0.0" maxHeight="46.0" maxWidth="46.0" minHeight="46.0" minWidth="46.0" mnemonicParsing="false" onMouseClicked="#next99" prefHeight="46.0" prefWidth="46.0" text=" " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnIndex="9" GridPane.rowIndex="9">
+                  <GridPane.margin>
+                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  </GridPane.margin>
+                  <font>
+                     <Font name="Arial" size="46.0" />
+                  </font>
+                  <padding>
+                     <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                  </padding>
+               </Button>
+               </children>
+            </GridPane>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Rules:">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label text="1. The puzzle is filled with Xs and Os." />
+                  <Label text="2. Horizontally and vertically, there can be no more than 2 of the same symbol touching." />
+                  <Label text="3. There are an equal number of Xs and Os in each row and column." />
+                  <Label text="4. Each row must be unique. Each column must be unique." />
+               </children>
+            </VBox>
+            <HBox prefHeight="45.0" prefWidth="500.0">
+               <children>
+                  <Button fx:id="buttonReset" mnemonicParsing="false" onMouseClicked="#reset" text="Reset">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="buttonSolve" mnemonicParsing="false" onMouseClicked="#solve" text="Solve">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="buttonStepbystep" mnemonicParsing="false" onMouseClicked="#stepbystep" text="Step by Step">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label fx:id="errors" prefHeight="22.0" prefWidth="245.0" textFill="RED">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="12.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+         <HBox.margin>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </HBox.margin>
+      </VBox>
+      <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+   </children>
+</HBox>
