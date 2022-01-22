@@ -64,7 +64,8 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.binoxxosolver/com.company.binoxxosolver.Application</mainClass>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>com.company.binoxxosolver.Launcher</mainClass>
                         </configuration>
                     </execution>
                 </executions>
