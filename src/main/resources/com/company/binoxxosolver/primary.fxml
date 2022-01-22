@@ -1079,7 +1079,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="buttonStepbystep" mnemonicParsing="false" onMouseClicked="#stepbystep" text="Step by Step">
+                  <Button fx:id="buttonStepbystep" mnemonicParsing="false" onMouseClicked="#stepByStep" text="Step by Step">
                      <HBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </HBox.margin>
