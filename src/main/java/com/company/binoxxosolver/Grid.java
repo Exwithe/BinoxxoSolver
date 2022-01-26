@@ -426,7 +426,7 @@ public class Grid {
                     case ' ':
                         o = 0;
                         x = 0;
-                        five = 0;
+                        five = 999;
                 }
                 if (o >= 3 | x >= 3) {
                     return true;
