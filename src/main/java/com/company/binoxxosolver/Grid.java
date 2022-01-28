@@ -325,7 +325,7 @@ public class Grid {
                 }
             }
                 //checker
-            if (isRowColumnTrue(checkGrid) & isUsedHorizontal(checkGrid)) {
+            if (isRowColumnTrue(checkGrid) & isUsed(checkGrid)) {
                 for (int l = 0; l < gridSize; l++) {
                     if (solutoionGrid[l] == ' ') {
                         solutoionGrid[l] = checkGrid[l];
@@ -344,7 +344,7 @@ public class Grid {
                 }
                 checkGrid[k] = '1';
                 //checker
-                if (isRowColumnTrue(checkGrid) & isUsedHorizontal(checkGrid)) {
+                if (isRowColumnTrue(checkGrid) & isUsed(checkGrid)) {
                     for (int l = 0; l < gridSize; l++) {
                         if (solutoionGrid[l] == ' ') {
                             solutoionGrid[l] = checkGrid[l];
@@ -539,7 +539,7 @@ public class Grid {
     }
 
     //Checks if column is unique
-    public boolean isUsedHorizontal (char[] row) {
+    public boolean isUsed(char[] row) {
         for(int i = 0; i < gridSize; i++) {
             for(int j = 0; j < gridSize; j++){
                 switch (mainGrid[j][i]) {
